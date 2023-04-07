@@ -362,23 +362,17 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[f(x) = x^2 + 3x - 4\]</div>
 <p>L’équation du dessus dans un texte : <span class="math notranslate nohighlight">\(f(x) = x^2 + 3x - 4\)</span></p>
+<p>La valeur de <span class="math notranslate nohighlight">\(f(9)^2 + 3f(4) - 4\)</span> est :</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">4</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>La valeur de <span class="math notranslate nohighlight">\(f(3)\)</span> est :</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="mi">9</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="o">-</span> <span class="mi">4</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>14
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10884
 </pre></div>
 </div>
 </div>
