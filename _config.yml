@@ -5,7 +5,7 @@ title: Le livre de Jonas
 author: Jonas Verbois
 logo: src/images/logo.png
 
-exclude_patterns: [_build, venv]
+exclude_patterns: [_build, venv, README.md]
 # Information about where the book exists on the web
 repository:
   url: https://github.com/executablebooks/jupyter-book  # Online location of your book
