@@ -6,4 +6,5 @@ root: src/index
 chapters:
 - file: src/page1
 - file: src/page2
+- file: src/page3
 

@@ -7,9 +7,12 @@ logo: src/images/logo.png
 
 exclude_patterns: [_build, venv, README.md]
 # Information about where the book exists on the web
+
+execute: 
+  execute_notebooks: force
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/jverbois/book-jonas
+  path_to_book: docs
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
